@@ -1,0 +1,115 @@
+/*Configuração Mobile Firts*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-color: #5F2C82;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img{
+    background-image: url(../img/metal.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    height: 240px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: -10px;
+    margin-bottom: 10px;
+}
+
+main{
+    background-color: white;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 0.8em;
+    text-align: justify;
+    padding-right: 15px;
+    margin-bottom: 7px;
+}
+
+.container{
+    background-color: #5F2C82;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    padding: 1.5px;
+}
+
+.caixa-entrada{
+    background-color: #94CFCD;
+    border-radius: 7px;
+    height: 40px;
+    width: 196px;
+    font-size: 1em;
+    padding-left: 5px;
+    border: none;
+}
+
+.material-symbols-outlined{
+    color: white;
+    font-size: 35px !important;
+    padding-top: 5px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.botao{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 45px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mail{
+    color: #385554;
+    font-size: 1.3em !important;
+    margin-top: -10px;
+    
+}
+
+.submit{
+    background-color: #77acaa;
+    color: white;
+    border: none;
+}
+
+.esqueci{
+    border: 1px solid #3d7472;
+    color: #385554;
+    background-color: white;
+}
+
+.submit:hover{
+    background-color: #2D6462;
+}
+
+.esqueci:hover{
+    background-color: #6CD3CF;
+}

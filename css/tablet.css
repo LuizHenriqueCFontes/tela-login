@@ -1,0 +1,19 @@
+/*Configurações para tablet*/
+
+@media screen and (min-width: 768px) {
+    main{
+        width: 75vw;
+    }
+
+    .img{
+        width: 50%;
+        margin: -10px;
+        padding: -10px;
+        margin: 0px;
+    }
+
+    .login{
+        display: flex;
+        padding-left: 20px;
+    }
+}
