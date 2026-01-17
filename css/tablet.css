@@ -1,19 +1,45 @@
 /*Configurações para tablet*/
 
 @media screen and (min-width: 768px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: linear-gradient(to bottom, #5F2C82, #57568C, #517893);
+    }
+    
     main{
-        width: 75vw;
+        width: 85vw;
     }
 
     .img{
-        width: 50%;
-        margin: -10px;
-        padding: -10px;
-        margin: 0px;
+        width: 45vw;
+        height: auto;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        margin: -10px 10px -10px -10px;
     }
 
     .login{
         display: flex;
-        padding-left: 20px;
+        margin: 0px;
+        padding: 0px;
     }
+
+    .quebra{
+        margin-top: 10px;
+    }
+
+    .caixa-entrada{
+        width: 89%;
+        padding-right: 0px;
+    }
+
+    .botao{
+        width: 100%;
+    }
+
 }
